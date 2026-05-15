@@ -3,8 +3,8 @@
 A client concerned about credit card debt requested an analysis of spending and payments, along with a forecast of future expenses.
 
 ## Technologies and Tools
-1. Data was imported into **PostgreSQL** database (version 17.9) which resides in the cloud hosted by aiven (https://console.aiven.io/).
-2. Performed cleaning and analysis with **Beekeeper Studio** (https://www.beekeeperstudio.io/db/postgres-client/) and **PgAdmin 4** (https://www.pgadmin.org/) SQL clients.
+1. Data was imported into **PostgreSQL** database (version 17.9) which resides in the cloud hosted by **aiven** ([aiven](https://console.aiven.io/)).
+2. Performed cleaning and analysis with **Beekeeper Studio** ([Beekeeper](https://www.beekeeperstudio.io/db/postgres-client/)) and **PgAdmin 4** ([PgAdmin 4](https://www.pgadmin.org/)) SQL clients.
 3. Created visualizations with **Tableau** (version 2026.1. professional edition ).
 4. Detailed notes and code snippets presented in **Google Colab**.
 

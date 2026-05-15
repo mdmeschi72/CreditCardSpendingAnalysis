@@ -6690,8 +6690,8 @@
           </layout-options>
           <size maxheight='1500' minheight='1500' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='135' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='97916' id='134' param='vert' type-v2='layout-flow' w='98828' x='586' y='1042'>
+            <zone h='100000' id='137' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97916' id='136' param='vert' type-v2='layout-flow' w='98828' x='586' y='1042'>
                 <zone forceUpdate='true' h='57550' id='66' type-v2='text' w='14515' x='586' y='1042'>
                   <formatted-text>
                     <run bold='true' fontcolor='#ff0000' fontname='Tableau Medium'>Overall Expenditures</run>
@@ -6867,6 +6867,84 @@
     </dashboard>
   </dashboards>
   <windows saved-dpi-scale-factor='1.5' source-height='168'>
+    <window class='dashboard' name='Home'>
+      <viewpoints>
+        <viewpoint name='Bar Chart By Quarter/Week Dash'>
+          <zoom type='entire-view' />
+          <highlight>
+            <color-one-way>
+              <field>[federated.02x21vi0kzbu7615y543507wo23e].[none:mandatory:nk]</field>
+            </color-one-way>
+          </highlight>
+        </viewpoint>
+        <viewpoint name='Payments, Charges, and Net Gain/Loss per Month Dash'>
+          <zoom type='entire-view' />
+          <highlight field='[federated.04bd9xu1bp6abv1fccxrn0b97ggx].[:Measure Names]'>
+            <bucket-selection />
+          </highlight>
+        </viewpoint>
+        <viewpoint name='Waterfall Chart By Month Dash'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='78' />
+      <simple-id uuid='{66681BD9-61FA-42A1-85CD-02CCCE4BDC03}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Category/Vendor Analysis'>
+      <viewpoints>
+        <viewpoint name='Category Analysis'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Vendor Analysis'>
+          <zoom type='entire-view' />
+          <highlight>
+            <color-one-way>
+              <field>[federated.02x21vi0kzbu7615y543507wo23e].[none:category:nk]</field>
+            </color-one-way>
+          </highlight>
+        </viewpoint>
+      </viewpoints>
+      <active id='26' />
+      <simple-id uuid='{0473ECD7-7F06-4C82-AFBE-47C84E204A90}' />
+    </window>
+    <window class='dashboard' name='Discrete Day/Month Analysis'>
+      <viewpoints>
+        <viewpoint name='Day of Week Spending'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Monthly Spending'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='20' />
+      <simple-id uuid='{4D193869-216B-41E7-BD5C-BA77D3186635}' />
+    </window>
+    <window class='dashboard' name='Distribution'>
+      <viewpoints>
+        <viewpoint name='Distribution Box Chart'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Distribution Histogram'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='18' />
+      <simple-id uuid='{BDEC0E43-9A4A-44A8-9B2C-D4A8D5828615}' />
+    </window>
+    <window class='dashboard' name='Avg Monthly Forecast'>
+      <viewpoints>
+        <viewpoint name='Forecast'>
+          <zoom type='entire-view' />
+          <highlight>
+            <color-one-way>
+              <field>[federated.1sqhiwr0fjjb3r11z8db60tl0tg1].[none:data_type:nk]</field>
+            </color-one-way>
+          </highlight>
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{CC05D107-B0EB-479F-84F3-E6870C45A368}' />
+    </window>
     <window class='worksheet' name='Waterfall Chart By Month'>
       <cards>
         <edge name='left'>
@@ -7067,84 +7145,6 @@
         </highlight>
       </viewpoint>
       <simple-id uuid='{9FA2860A-FFC8-4079-8D97-A81A96DB0F5F}' />
-    </window>
-    <window class='dashboard' name='Home'>
-      <viewpoints>
-        <viewpoint name='Bar Chart By Quarter/Week Dash'>
-          <zoom type='entire-view' />
-          <highlight>
-            <color-one-way>
-              <field>[federated.02x21vi0kzbu7615y543507wo23e].[none:mandatory:nk]</field>
-            </color-one-way>
-          </highlight>
-        </viewpoint>
-        <viewpoint name='Payments, Charges, and Net Gain/Loss per Month Dash'>
-          <zoom type='entire-view' />
-          <highlight field='[federated.04bd9xu1bp6abv1fccxrn0b97ggx].[:Measure Names]'>
-            <bucket-selection />
-          </highlight>
-        </viewpoint>
-        <viewpoint name='Waterfall Chart By Month Dash'>
-          <zoom type='entire-view' />
-        </viewpoint>
-      </viewpoints>
-      <active id='-1' />
-      <simple-id uuid='{66681BD9-61FA-42A1-85CD-02CCCE4BDC03}' />
-    </window>
-    <window class='dashboard' name='Category/Vendor Analysis'>
-      <viewpoints>
-        <viewpoint name='Category Analysis'>
-          <zoom type='entire-view' />
-        </viewpoint>
-        <viewpoint name='Vendor Analysis'>
-          <zoom type='entire-view' />
-          <highlight>
-            <color-one-way>
-              <field>[federated.02x21vi0kzbu7615y543507wo23e].[none:category:nk]</field>
-            </color-one-way>
-          </highlight>
-        </viewpoint>
-      </viewpoints>
-      <active id='26' />
-      <simple-id uuid='{0473ECD7-7F06-4C82-AFBE-47C84E204A90}' />
-    </window>
-    <window class='dashboard' name='Discrete Day/Month Analysis'>
-      <viewpoints>
-        <viewpoint name='Day of Week Spending'>
-          <zoom type='entire-view' />
-        </viewpoint>
-        <viewpoint name='Monthly Spending'>
-          <zoom type='entire-view' />
-        </viewpoint>
-      </viewpoints>
-      <active id='20' />
-      <simple-id uuid='{4D193869-216B-41E7-BD5C-BA77D3186635}' />
-    </window>
-    <window class='dashboard' name='Distribution'>
-      <viewpoints>
-        <viewpoint name='Distribution Box Chart'>
-          <zoom type='entire-view' />
-        </viewpoint>
-        <viewpoint name='Distribution Histogram'>
-          <zoom type='entire-view' />
-        </viewpoint>
-      </viewpoints>
-      <active id='18' />
-      <simple-id uuid='{BDEC0E43-9A4A-44A8-9B2C-D4A8D5828615}' />
-    </window>
-    <window class='dashboard' maximized='true' name='Avg Monthly Forecast'>
-      <viewpoints>
-        <viewpoint name='Forecast'>
-          <zoom type='entire-view' />
-          <highlight>
-            <color-one-way>
-              <field>[federated.1sqhiwr0fjjb3r11z8db60tl0tg1].[none:data_type:nk]</field>
-            </color-one-way>
-          </highlight>
-        </viewpoint>
-      </viewpoints>
-      <active id='-1' />
-      <simple-id uuid='{CC05D107-B0EB-479F-84F3-E6870C45A368}' />
     </window>
     <window class='worksheet' name='Monthly Spending'>
       <cards>

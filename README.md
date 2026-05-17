@@ -34,6 +34,7 @@ A client concerned about credit card debt requested an analysis of spending and 
 1. Data provided was only for eleven months.  This totaled 941 records, which is a small amount limiting the ability to find seasonal trends and cycles resulting in difficulty creating a detailed forecast for the future.
 2. Google colab notebook can be opened by going to their website [Google Colab](colab.research.google.com) then going to File->Open Notebook->GitHub then entering in the URL for this project (https://github.com/mdmeschi72/CreditCardSpendingAnalysis).
 3. Tableau notebook saved referencing extracted data sources from PostgreSQL database.
+4. Feature backlog and bugs tracked in GitHub Issues.
 
 [^1]: **LOVE** Beekeeper Studio because it allows you to toggle to vim as its editor.
 [^2]: Google colab has database password embedded in _secrets_ for security reasons.
